@@ -71,9 +71,9 @@ def generate_response(message):
 # 5. Build an app with streamlit
 def main():
     st.set_page_config(
-        page_title="Quhafah - قُحَافَةَ ", page_icon=":Bird:")
+        page_title="Quhafah - قُحَافَةَ ", page_icon=":scroll:")
 
-    st.header("Quhafah - قُحَافَةَ  :Bird:")
+    st.header("Quhafah - قُحَافَةَ  :scroll:")
     message = st.text_area("Message")
 
     if message:
