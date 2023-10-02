@@ -44,13 +44,13 @@ Lorsque vous posez des questions en rapport avec la Sunnah ou le Coran, veuillez
 Assurez-vous également de répondre dans la même langue que le message initial pour une meilleure compréhension.
 
 
-Below is a message I received from the prospect:
+Below is a message I received :
 {message}
 
 Here is a list of KNOWLEDGE BASE articles that I think might be helpful:
 {best_practice}
 
-Please write the best response that I should send to this prospect:
+Please write the best response with versets from quran and proofs from sunnah in arabic
 """
 
 prompt = PromptTemplate(
