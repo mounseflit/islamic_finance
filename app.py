@@ -71,13 +71,13 @@ def generate_response(message):
 # 5. Build an app with streamlit
 def main():
     st.set_page_config(
-        page_title="Customer response generator", page_icon=":bird:")
+        page_title="Quhafah - قُحَافَةَ ", page_icon=":Scroll:")
 
-    st.header("Customer response generator :bird:")
-    message = st.text_area("customer message")
+    st.header("Quhafah - قُحَافَةَ  :Scroll:")
+    message = st.text_area("Message")
 
     if message:
-        st.write("Generating best practice message...")
+        st.write("Generating response...")
 
         result = generate_response(message)
 
