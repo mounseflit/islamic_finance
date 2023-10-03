@@ -50,7 +50,7 @@ Below is a message I received :
 Here is a list of KNOWLEDGE BASE articles that I think might be helpful:
 {best_practice}
 
-Please write the best response with versets from quran and proofs from sunnah in arabic
+Please write the best response with versets in arabic from quran and proofs in arabic from sunnah 
 """
 
 prompt = PromptTemplate(
